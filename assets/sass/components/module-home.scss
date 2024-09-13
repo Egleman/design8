@@ -13,10 +13,24 @@
         &__social {
             display: flex;
             justify-content: center;
+            align-items: center;
             margin-bottom: 30.5px;
-            img {
-                width: 227.5px;
-                height: 32.5px;
+            gap: 20px;
+            .share, .copy {
+                font-family: var(--four-family);
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 32px;
+                letter-spacing: 0.2em;
+                color: #7c7c7c;
+            }
+            .copy {
+                font-weight: 300;
+            }
+            .links {
+                display: flex;
+                gap: 16px;
+                list-style-type: none;
             }
         }
         &__child {

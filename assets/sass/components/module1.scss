@@ -3,7 +3,10 @@
         padding-top: 6px;
         padding-bottom: 42px;
         .popular-names {
-            margin-bottom: 22.5px;
+            margin-bottom: 11px;
+        }
+        &__message {
+            color: var(--color-title);
         }
     }
 }

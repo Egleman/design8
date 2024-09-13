@@ -1,7 +1,7 @@
 .design8
   .header
     &__top
-      padding-bottom: 15px
+      padding-bottom: 12px
       display: flex
       align-items: center
       justify-content: space-between
@@ -25,7 +25,7 @@
     &__menu-button
       display: flex
       align-items: center
-      gap: 38px
+      gap: 19px
       position: relative
       &::before
         content: ''
@@ -61,6 +61,12 @@
       display: flex
       align-items: center
       gap: 20px
+      @include media('sm')
+        gap: 10px
       &__link
         font: 400 21px var(--font-family)
         color: #fff
+        @include media('sm')
+          font: 400 18px var(--font-family)
+        @include media('xs')
+          font: 400 15px var(--font-family)
